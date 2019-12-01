@@ -256,7 +256,7 @@ h2,h3 {
     width: 90%;
     padding-bottom: 5%;
   }
-  .illustration2-desc h2,span {
+  .illustration2-desc h2,div.cta-green {
     text-align: center;
     display: block;
   }
