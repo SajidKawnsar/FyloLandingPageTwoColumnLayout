@@ -1,0 +1,302 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h2,h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+/**  Navigation bar styles **/
+
+.nav-grid {
+  display: grid;
+  padding: 3% 4%;
+  grid-template-columns: 70%  10%  10%  10%;
+}
+
+.fylo-logo {
+  width: 12%;
+}
+
+/**  illustration1  styles **/
+.illustration-grid {
+  display: grid;
+  padding: 3% 4%;
+  grid-template-columns: 46% 46%;
+  justify-content: space-between;
+}
+
+.illustration1-desc {
+  padding-top: 12%;
+}
+
+.input1 {
+  width: 50%;
+  height: 1.5rem;
+  margin-right: 1rem;
+  border-radius: 0.2rem;
+}
+
+.btn {
+  padding:  0.5rem  10%;
+  background-color: hsl(224, 93%, 58%);
+  color: #fff;
+  font-size: 0.75rem;
+  border-radius: 0.2rem;
+}
+
+.illustration1-img {
+  width: 100%;
+}
+
+/**  big curve style**/
+
+.bg-curve {
+  width: 100%;
+  display: block;
+  margin-top: 5%;
+}
+
+/**  Illustration2 and testimonial styles **/
+
+.illustration-grid2 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #F8F8FE;
+  background-clip: border-box;
+}
+
+.cta-green a {
+  color: hsl(170, 45%, 50%);
+}
+
+.arrow {
+  vertical-align: bottom;
+}
+
+.cta-green hr {
+  width: 150px;
+  margin: 4px 0;
+  border-top: 1px solid hsl(170, 45%, 50%);
+}
+
+.testimonial {
+  width: 60%;
+  background-color: #fff;
+  margin-top: 5%;
+  padding: 3% 5%;
+  border-radius: 3%;
+}
+
+.avatar {
+  width: 15%;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.avatar-label {
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: top;
+  width: inherit;
+}
+
+.avatar-label p {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.cust-name {
+  font-weight: 700;
+}
+
+.cust-design {
+  font-size: 0.7rem;
+}
+
+.illustration2-img {
+  width: 100%;
+  padding-top: 7%;
+}
+
+/**  Call to action grid styles **/
+
+.cta-grid {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: space-between;
+  padding: 4% 4%;
+  background-color: hsl(238, 22%, 44%);
+  color: #fff;
+}
+
+.cta-input {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4%;
+  padding-left: 10%;
+}
+
+.input2 {
+  width: 80%;
+  height: 1.5rem;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.btn2 {
+  width: 40%;
+  padding:  0.5rem 1%;
+  text-align: center;
+}
+
+/**  Navigation container styles **/
+
+.nav-container {
+  background-color: hsl(243, 87%, 12%);
+  padding: 5% 4%;
+  color: #fff;
+}
+
+.logo-white {
+  color: #fff;
+  width: 10%;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.contact-grid {
+  display: inline-grid;
+  width: 30%;
+  grid-template-columns: 10% auto;
+}
+
+.contact-icon {
+  padding-right: 1rem;
+}
+
+.contact-grid p {
+  margin-top: 0;
+  padding-left: 1rem;
+}
+
+.nav-link-grid {
+  display: inline-grid;
+  width: 15%;
+  grid-template-columns: auto;
+  margin-left: 5%;
+}
+
+.social-grid {
+  display: inline-flex;
+  width: 8%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+.social-img {
+  width: 20%;
+}
+
+/**  Footer styles **/
+.attribution {
+  text-align: center;
+}
+.attribution  a{
+  text-decoration: underline;
+}
+
+/**  Media queries for mobile viewport  **/
+@media only screen and (max-width: 790px){
+  .nav-grid {
+      grid-template-columns: 40%  25%  18%  18%;
+  }
+
+  .fylo-logo {
+    width: 50%;
+  }
+
+  .illustration-grid {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .illustration1-img {
+    padding-top: 10%;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .illustration1-desc {
+    text-align: center;
+  }
+  .input1 {
+    display: block;
+    width: 80%;
+    margin: 0 auto 3%;
+  }
+  .btn {
+    display: block;
+    width: 61%;
+    margin: 0 auto 5%;
+  }
+  .illustration2-img {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+  }
+  .illustration2-desc {
+    width: 90%;
+    padding-bottom: 5%;
+  }
+  .illustration2-desc h2,span {
+    text-align: center;
+    display: block;
+  }
+  .illustration2-desc div {
+    margin: 0 auto;
+  }
+  .cta-green hr {
+    margin: 0.3rem auto 2.5rem;
+  }
+  .cta-grid {
+    grid-template-columns: 80%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10%;
+  }
+  .cta-input {
+    padding-left: 0;
+  }
+  .input2,.btn2{
+    width: 60%;
+    margin: 0.5rem auto;
+  }
+  .logo-white {
+    width: 25%;
+  }
+  .block-grid {
+    display: grid;
+    width: 80%;
+    margin-top: 2rem;
+  }
+  .contact-icon {
+    padding-left: 1.3rem;
+  }
+  .contact-grid p {
+    padding-left: 2rem;
+  }
+
+  .social-grid {
+    width: 25%;
+    margin: 2rem 35%;
+    justify-content: space-around;
+  }
+}
